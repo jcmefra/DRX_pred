@@ -1,0 +1,33 @@
+name: ICP_ML
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - ipykernel
+  - jupyterlab
+  - statsmodels
+  - openpyxl
+  - plotly
+  - pip
+  - pip:
+      - xgboost
+      - lightgbm
+      - catboost
+      - tensorflow
+      - keras
+      - shap
+      - lime
+      - scikit-bio
+      - pycoda
+      - lasio
+      - welly
+      - umap-learn
+      - hdbscan
